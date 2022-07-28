@@ -1,0 +1,114 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1b252b;
+    display: flex;
+    flex-direction: row;
+}
+
+.contatos {
+    border-right: 1px solid #8696a059;
+}
+
+.row>* {
+    margin: 0;
+    padding: 0;
+}
+
+.contatos header {
+    background-color: #202c33;
+    color: #fff;
+    height: 59px;
+}
+
+.contatos span {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.pesquisa {
+    border-bottom: 1px solid #8696a059;
+}
+
+.icon-pesquisa {
+    background-color: #202c33;
+    border-radius: 8px;
+}
+
+.icon-pesquisa input {
+    background-color: transparent;
+    border: 0px;
+    width: 100%;
+    color: #fff;
+}
+
+.icon-pesquisa input:focus {
+    outline: 0px;
+}
+
+.contatos .header-grupo {
+    background-color: transparent;
+    color: #fff;
+    height: 70px;
+}
+
+.contatos .header-grupo span {
+    margin: 0px 8px;
+}
+
+.contatos .header-grupo small {
+    font-size: 12px;
+}
+
+.contatos .img-grupo {
+    width: 49px;
+    margin: 0px 15px;
+    border-radius: 50%;    
+}
+
+.contatos .info-grupo p {
+    font-size: 17px;
+    padding-bottom: 12px;
+    margin-right: 10px;
+    border-bottom: 1px solid #8696a059;
+}
+
+.chat img {
+    width: 40px;
+    margin: 0px 15px;
+    border-radius: 50%;
+}
+
+.chat header {
+    color: #fff;
+    background-color: #202c33;
+    height: 59px;
+}
+
+.chat main {
+    background-image: url(background.webp);
+    height: calc(100vh - 121px);
+    opacity: 0.4;
+}
+
+footer {
+    height: 62px;
+    background-color: #202c33;
+}
+
+footer input {
+    width: 100%;
+    background-color: #2a3942;
+    color: #fff;
+    padding: 9px 12px 11px;
+    margin:  5px 10px;
+    border: 1px solid #2a3942;
+    border-radius: 8px;
+}
+
+footer span {
+    margin: 0px 10px;
+}
